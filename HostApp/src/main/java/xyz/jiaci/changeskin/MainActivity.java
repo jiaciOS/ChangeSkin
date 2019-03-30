@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     protected void attachBaseContext(Context newBase) {
         super.attachBaseContext(newBase);
         try {
+            //把Assets里面得文件复制到 /data/data/files 目录下
             Utils.extractAssets(newBase, apkName);
         } catch (Throwable e) {
             e.printStackTrace();
