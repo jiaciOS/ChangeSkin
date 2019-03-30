@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Plugin1</string>
+    <string name="plugin1_hello">PLUGIN_ONE_HELLO</string>
+</resources>
